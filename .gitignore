@@ -1,0 +1,19 @@
+# dbt
+dbt_packages/
+logs/
+target/
+
+# Data files
+data/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific
+.DS_Store
+
+# Credentials
+profiles.yml
+.env
