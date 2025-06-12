@@ -17,3 +17,12 @@ __pycache__/
 # Credentials
 profiles.yml
 .env
+
+# Terraform
+.terraform/
+terraform.tfstate
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform.lock.hcl
+*.terraform/
