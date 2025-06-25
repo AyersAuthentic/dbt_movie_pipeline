@@ -13,6 +13,6 @@ SELECT
         WHEN d.release_date IS NULL THEN 'unknown'
         ELSE 'known'
     END AS release_info_available
-FROM fct_ratings f
+FROM fct_ratings fed
 LEFT JOIN seed_dates d
 ON f.movie_id = d.movie_id
